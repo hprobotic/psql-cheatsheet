@@ -25,9 +25,9 @@ Most `\d` commands support additional param of `__schema__.name__` and accept wi
 User Related:
 - `\du`: List users
 - `\du __username__`: List a username if present.
-- `create role __test1__`: Create a role with an existing username.
-- `create role __test2__ noinherit login password __passsword__;`: Create a role with username and password.
-- `set role __test__;`: Change role for current session to `__test__`.
+- `CREAT ROLE __test1__;`: Create a role with an existing username.
+- `CREAT ROLE __test2__ noinherit login password __passsword__;`: Create a role with username and password.
+- `SET ROLE __test__;`: Change role for current session to `__test__`.
 - `grant __test2__ to __test1__;`: Allow `__test1__` to set its role as `__test2__`.
 
 ## Configuration
